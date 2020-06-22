@@ -1,0 +1,343 @@
+strict digraph "" {
+	graph [labelloc=t,
+		roots="{'molecular_function': 'GO:0003674', 'cellular_component': 'GO:0005575', 'biological_process': 'GO:0008150'}"
+	];
+	node [label="\N"];
+	"GO:0140303"	 [color=black,
+		label="intramembrane lipid transporter activity\n2 / 19 genes\nq = 8.425957E-02",
+		shape=record];
+	"GO:0140326"	 [color=red,
+		label="ATPase-coupled intramembrane lipid transporter activity\n2 / 9 genes\nq = 3.228799E-02",
+		shape=record];
+	"GO:0140303" -> "GO:0140326";
+	"GO:0022804"	 [color=red,
+		label="active transmembrane transporter activity\n5 / 364 genes\nq = 2.842825E-02",
+		shape=record];
+	"GO:0015399"	 [color=red,
+		label="primary active transmembrane transporter activity\n5 / 126 genes\nq = 4.653433E-04",
+		shape=record];
+	"GO:0022804" -> "GO:0015399";
+	"GO:0070887"	 [color=black,
+		label="cellular response to chemical stimulus",
+		shape=record];
+	"GO:0071466"	 [color=red,
+		label="cellular response to xenobiotic stimulus\n4 / 180 genes\nq = 2.843215E-02",
+		shape=record];
+	"GO:0070887" -> "GO:0071466";
+	"GO:0022857"	 [color=black,
+		label="transmembrane transporter activity",
+		shape=record];
+	"GO:0022857" -> "GO:0022804";
+	"GO:0007417"	 [color=black,
+		label="central nervous system development",
+		shape=record];
+	"GO:0007420"	 [color=black,
+		label="brain development",
+		shape=record];
+	"GO:0007417" -> "GO:0007420";
+	"GO:0007275"	 [color=black,
+		label="multicellular organism development",
+		shape=record];
+	"GO:0048731"	 [color=black,
+		label="system development",
+		shape=record];
+	"GO:0007275" -> "GO:0048731";
+	"GO:0043227"	 [color=black,
+		label="membrane-bounded organelle",
+		shape=record];
+	"GO:0031982"	 [color=black,
+		label=vesicle,
+		shape=record];
+	"GO:0043227" -> "GO:0031982";
+	"GO:0016410"	 [color=black,
+		label="N-acyltransferase activity\n3 / 115 genes\nq = 8.574856E-02",
+		shape=record];
+	"GO:0016746"	 [color=black,
+		label="transferase activity, transferring acyl groups\n3 / 266 genes\nq = 3.968941E-01",
+		shape=record];
+	"GO:0016747"	 [color=black,
+		label="transferase activity, transferring acyl groups other than amino-acyl groups\n3 / 234 genes\nq = 2.963685E-01",
+		shape=record];
+	"GO:0016746" -> "GO:0016747";
+	"GO:0043229"	 [color=black,
+		label="intracellular organelle",
+		shape=record];
+	"GO:0070013"	 [color=black,
+		label="intracellular organelle lumen",
+		shape=record];
+	"GO:0043229" -> "GO:0070013";
+	"GO:0097708"	 [color=black,
+		label="intracellular vesicle",
+		shape=record];
+	"GO:0043229" -> "GO:0097708";
+	"GO:0044446"	 [color=black,
+		label="intracellular organelle part",
+		shape=record];
+	"GO:0043229" -> "GO:0044446";
+	"GO:0016407"	 [color=black,
+		label="acetyltransferase activity\n3 / 112 genes\nq = 8.425957E-02",
+		shape=record];
+	"GO:0060322"	 [color=black,
+		label="head development",
+		shape=record];
+	"GO:0060322" -> "GO:0007420";
+	"GO:0031091"	 [color=black,
+		label="platelet alpha granule\n3 / 91 genes\nq = 6.618557E-02",
+		shape=record];
+	"GO:0031093"	 [color=red,
+		label="platelet alpha granule lumen\n3 / 67 genes\nq = 3.237872E-02",
+		shape=record];
+	"GO:0031091" -> "GO:0031093";
+	"GO:0044433"	 [color=black,
+		label="cytoplasmic vesicle part",
+		shape=record];
+	"GO:0060205"	 [color=black,
+		label="cytoplasmic vesicle lumen\n4 / 325 genes\nq = 9.556959E-02",
+		shape=record];
+	"GO:0044433" -> "GO:0060205";
+	"GO:0022037"	 [color=black,
+		label="metencephalon development\n3 / 111 genes\nq = 8.425957E-02",
+		shape=record];
+	"GO:0021549"	 [color=black,
+		label="cerebellum development\n3 / 102 genes\nq = 8.425957E-02",
+		shape=record];
+	"GO:0022037" -> "GO:0021549";
+	"GO:0005319"	 [color=red,
+		label="lipid transporter activity\n4 / 131 genes\nq = 1.176536E-02",
+		shape=record];
+	"GO:0005319" -> "GO:0140303";
+	"GO:1901700"	 [color=black,
+		label="response to oxygen-containing compound",
+		shape=record];
+	"GO:0097305"	 [color=black,
+		label="response to alcohol\n4 / 233 genes\nq = 5.446833E-02",
+		shape=record];
+	"GO:1901700" -> "GO:0097305";
+	"GO:0051234"	 [color=black,
+		label="establishment of localization",
+		shape=record];
+	"GO:0006810"	 [color=black,
+		label=transport,
+		shape=record];
+	"GO:0051234" -> "GO:0006810";
+	"GO:0030902"	 [color=black,
+		label="hindbrain development\n3 / 149 genes\nq = 1.201149E-01",
+		shape=record];
+	"GO:0030902" -> "GO:0022037";
+	"GO:0042626"	 [color=red,
+		label="ATPase-coupled transmembrane transporter activity\n5 / 116 genes\nq = 4.653433E-04",
+		shape=record];
+	"GO:0044464"	 [color=black,
+		label="cell part",
+		shape=record];
+	"GO:0044424"	 [color=black,
+		label="intracellular part",
+		shape=record];
+	"GO:0044464" -> "GO:0044424";
+	"GO:0012505"	 [color=black,
+		label="endomembrane system",
+		shape=record];
+	"GO:0044464" -> "GO:0012505";
+	"GO:0005622"	 [color=black,
+		label=intracellular,
+		shape=record];
+	"GO:0044464" -> "GO:0005622";
+	"GO:0044422"	 [color=black,
+		label="organelle part",
+		shape=record];
+	"GO:0044422" -> "GO:0044446";
+	"GO:0043233"	 [color=black,
+		label="organelle lumen",
+		shape=record];
+	"GO:0044422" -> "GO:0043233";
+	"GO:0070013" -> "GO:0060205";
+	"GO:0016747" -> "GO:0016410";
+	"GO:0016747" -> "GO:0016407";
+	"GO:0031410"	 [color=black,
+		label="cytoplasmic vesicle",
+		shape=record];
+	"GO:0097708" -> "GO:0031410";
+	"GO:0007420" -> "GO:0030902";
+	"GO:0044446" -> "GO:0044433";
+	"GO:0010876"	 [color=black,
+		label="lipid localization\n4 / 313 genes\nq = 9.434324E-02",
+		shape=record];
+	"GO:0006869"	 [color=black,
+		label="lipid transport\n4 / 291 genes\nq = 8.425957E-02",
+		shape=record];
+	"GO:0010876" -> "GO:0006869";
+	"GO:0031983"	 [color=black,
+		label="vesicle lumen\n4 / 327 genes\nq = 9.556959E-02",
+		shape=record];
+	"GO:0031983" -> "GO:0060205";
+	"GO:0033036"	 [color=black,
+		label="macromolecule localization",
+		shape=record];
+	"GO:0033036" -> "GO:0010876";
+	"GO:0003674"	 [color=black,
+		label=molecular_function,
+		shape=record];
+	"GO:0003824"	 [color=black,
+		label="catalytic activity",
+		shape=record];
+	"GO:0003674" -> "GO:0003824";
+	"GO:0005215"	 [color=black,
+		label="transporter activity",
+		shape=record];
+	"GO:0003674" -> "GO:0005215";
+	"GO:0071702"	 [color=black,
+		label="organic substance transport",
+		shape=record];
+	"GO:0071702" -> "GO:0006869";
+	"GO:0043226"	 [color=black,
+		label=organelle,
+		shape=record];
+	"GO:0043226" -> "GO:0043227";
+	"GO:0043226" -> "GO:0043229";
+	"GO:0043226" -> "GO:0044422";
+	"GO:0099503"	 [color=black,
+		label="secretory vesicle",
+		shape=record];
+	"GO:0030141"	 [color=black,
+		label="secretory granule",
+		shape=record];
+	"GO:0099503" -> "GO:0030141";
+	"GO:0034774"	 [color=black,
+		label="secretory granule lumen\n4 / 321 genes\nq = 9.556959E-02",
+		shape=record];
+	"GO:0034774" -> "GO:0031093";
+	"GO:0043233" -> "GO:0070013";
+	"GO:0043233" -> "GO:0031983";
+	"GO:0032501"	 [color=black,
+		label="multicellular organismal process",
+		shape=record];
+	"GO:0032501" -> "GO:0007275";
+	"GO:0051716"	 [color=black,
+		label="cellular response to stimulus",
+		shape=record];
+	"GO:0051716" -> "GO:0070887";
+	"GO:0032502"	 [color=black,
+		label="developmental process",
+		shape=record];
+	"GO:0048856"	 [color=black,
+		label="anatomical structure development",
+		shape=record];
+	"GO:0032502" -> "GO:0048856";
+	"GO:0016740"	 [color=black,
+		label="transferase activity",
+		shape=record];
+	"GO:0016740" -> "GO:0016746";
+	"GO:0015399" -> "GO:0042626";
+	"GO:0006805"	 [color=red,
+		label="xenobiotic metabolic process\n4 / 125 genes\nq = 1.176536E-02",
+		shape=record];
+	"GO:0009410"	 [color=red,
+		label="response to xenobiotic stimulus\n5 / 292 genes\nq = 1.176536E-02",
+		shape=record];
+	"GO:0009410" -> "GO:0071466";
+	"GO:0042221"	 [color=black,
+		label="response to chemical",
+		shape=record];
+	"GO:0042221" -> "GO:0070887";
+	"GO:0042221" -> "GO:1901700";
+	"GO:0042221" -> "GO:0009410";
+	"GO:0010033"	 [color=black,
+		label="response to organic substance",
+		shape=record];
+	"GO:0042221" -> "GO:0010033";
+	"GO:0044424" -> "GO:0043229";
+	"GO:0044424" -> "GO:0070013";
+	"GO:0044424" -> "GO:0044446";
+	"GO:0005737"	 [color=black,
+		label=cytoplasm,
+		shape=record];
+	"GO:0044424" -> "GO:0005737";
+	"GO:0044444"	 [color=black,
+		label="cytoplasmic part",
+		shape=record];
+	"GO:0044424" -> "GO:0044444";
+	"GO:0005575"	 [color=black,
+		label=cellular_component,
+		shape=record];
+	"GO:0005575" -> "GO:0044464";
+	"GO:0005575" -> "GO:0044422";
+	"GO:0005575" -> "GO:0043226";
+	"GO:0005623"	 [color=black,
+		label=cell,
+		shape=record];
+	"GO:0005575" -> "GO:0005623";
+	"GO:0031974"	 [color=black,
+		label="membrane-enclosed lumen",
+		shape=record];
+	"GO:0005575" -> "GO:0031974";
+	"GO:0012505" -> "GO:0030141";
+	"GO:0048513"	 [color=black,
+		label="animal organ development",
+		shape=record];
+	"GO:0048513" -> "GO:0007420";
+	"GO:0031410" -> "GO:0044433";
+	"GO:0031410" -> "GO:0099503";
+	"GO:0071466" -> "GO:0006805";
+	"GO:0005622" -> "GO:0044424";
+	"GO:0031982" -> "GO:0097708";
+	"GO:0031982" -> "GO:0031983";
+	"GO:0010033" -> "GO:0097305";
+	"GO:0051179"	 [color=black,
+		label=localization,
+		shape=record];
+	"GO:0051179" -> "GO:0051234";
+	"GO:0051179" -> "GO:0033036";
+	"GO:0006810" -> "GO:0071702";
+	"GO:0060205" -> "GO:0034774";
+	"GO:0044237"	 [color=black,
+		label="cellular metabolic process",
+		shape=record];
+	"GO:0044237" -> "GO:0006805";
+	"GO:0005623" -> "GO:0044464";
+	"GO:0003824" -> "GO:0016740";
+	"GO:0030141" -> "GO:0031091";
+	"GO:0030141" -> "GO:0034774";
+	"GO:0007399"	 [color=black,
+		label="nervous system development",
+		shape=record];
+	"GO:0007399" -> "GO:0007417";
+	"GO:0050896"	 [color=black,
+		label="response to stimulus",
+		shape=record];
+	"GO:0050896" -> "GO:0051716";
+	"GO:0050896" -> "GO:0042221";
+	"GO:0008152"	 [color=black,
+		label="metabolic process",
+		shape=record];
+	"GO:0008152" -> "GO:0044237";
+	"GO:0009987"	 [color=black,
+		label="cellular process",
+		shape=record];
+	"GO:0009987" -> "GO:0051716";
+	"GO:0009987" -> "GO:0044237";
+	"GO:0005737" -> "GO:0044444";
+	"GO:0048856" -> "GO:0007275";
+	"GO:0048856" -> "GO:0060322";
+	"GO:0048856" -> "GO:0022037";
+	"GO:0048856" -> "GO:0030902";
+	"GO:0048856" -> "GO:0048513";
+	"GO:0048856" -> "GO:0048731";
+	"GO:0048856" -> "GO:0021549";
+	"GO:0008150"	 [color=black,
+		label=biological_process,
+		shape=record];
+	"GO:0008150" -> "GO:0032501";
+	"GO:0008150" -> "GO:0032502";
+	"GO:0008150" -> "GO:0051179";
+	"GO:0008150" -> "GO:0050896";
+	"GO:0008150" -> "GO:0008152";
+	"GO:0008150" -> "GO:0009987";
+	"GO:0005215" -> "GO:0022857";
+	"GO:0005215" -> "GO:0005319";
+	"GO:0048731" -> "GO:0007417";
+	"GO:0048731" -> "GO:0048513";
+	"GO:0048731" -> "GO:0007399";
+	"GO:0044444" -> "GO:0044433";
+	"GO:0044444" -> "GO:0031410";
+	"GO:0031974" -> "GO:0043233";
+}

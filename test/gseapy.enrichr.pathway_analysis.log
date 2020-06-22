@@ -1,0 +1,811 @@
+LINE 208 : 2020-01-29 18:45:33,379 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 18:45:33,775 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 18:45:33,905 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 18:45:33,906 [DEBUG   ] Start Enrichr using library: KEGG_2019_Human
+LINE 355 : 2020-01-29 18:45:33,906 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: KEGG_2019_Human
+LINE 208 : 2020-01-29 18:45:33,908 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 18:45:52,269 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 400 975
+LINE 208 : 2020-01-29 18:46:48,870 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 18:46:49,269 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 18:46:49,398 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 18:46:49,399 [DEBUG   ] Start Enrichr using library: GO_Molecular_Function_2018
+LINE 355 : 2020-01-29 18:46:49,399 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: GO_Molecular_Function_2018
+LINE 208 : 2020-01-29 18:46:49,401 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 18:47:19,096 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-01-29 18:47:20,100 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 18:47:25,926 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=25886216&filename=GO_Molecular_Function_2018.pathway_analysis.reports&backgroundType=GO_Molecular_Function_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-01-29 18:47:27,447 [INFO    ] Save file of enrichment results: Job Id:3e9df5eda9314f7c54bbcd2df0e3fa3d
+LINE 1343: 2020-01-29 18:47:27,759 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=16.0 to DejaVu Sans ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+LINE 658 : 2020-01-29 18:47:27,811 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 1343: 2020-01-29 18:47:27,833 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=bold:stretch=normal:size=16.0 to DejaVu Sans ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000
+LINE 1343: 2020-01-29 18:47:27,841 [DEBUG   ] findfont: Matching :family=STIXGeneral:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXGeneral ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,842 [DEBUG   ] findfont: Matching :family=STIXGeneral:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXGeneral ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,843 [DEBUG   ] findfont: Matching :family=STIXGeneral:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to STIXGeneral ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf') with score of 0.000000
+LINE 1343: 2020-01-29 18:47:27,844 [DEBUG   ] findfont: Matching :family=STIXNonUnicode:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXNonUnicode ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,845 [DEBUG   ] findfont: Matching :family=STIXNonUnicode:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXNonUnicode ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,846 [DEBUG   ] findfont: Matching :family=STIXNonUnicode:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to STIXNonUnicode ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf') with score of 0.000000
+LINE 1343: 2020-01-29 18:47:27,847 [DEBUG   ] findfont: Matching :family=STIXSizeOneSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeOneSym ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,848 [DEBUG   ] findfont: Matching :family=STIXSizeTwoSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeTwoSym ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,849 [DEBUG   ] findfont: Matching :family=STIXSizeThreeSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeThreeSym ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,849 [DEBUG   ] findfont: Matching :family=STIXSizeFourSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeFourSym ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,850 [DEBUG   ] findfont: Matching :family=STIXSizeFiveSym:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to STIXSizeFiveSym ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,852 [DEBUG   ] findfont: Matching :family=cmsy10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmsy10 ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,853 [DEBUG   ] findfont: Matching :family=cmr10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmr10 ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,853 [DEBUG   ] findfont: Matching :family=cmtt10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmtt10 ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,854 [DEBUG   ] findfont: Matching :family=cmmi10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmmi10 ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,855 [DEBUG   ] findfont: Matching :family=cmb10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmb10 ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,856 [DEBUG   ] findfont: Matching :family=cmss10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmss10 ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,857 [DEBUG   ] findfont: Matching :family=cmex10:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to cmex10 ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,858 [DEBUG   ] findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,859 [DEBUG   ] findfont: Matching :family=DejaVu Sans:style=italic:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf') with score of 0.150000
+LINE 1343: 2020-01-29 18:47:27,860 [DEBUG   ] findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=bold:stretch=normal:size=10.0 to DejaVu Sans ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000
+LINE 1343: 2020-01-29 18:47:27,861 [DEBUG   ] findfont: Matching :family=DejaVu Sans Mono:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans Mono ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf') with score of 0.050000
+LINE 1343: 2020-01-29 18:47:27,862 [DEBUG   ] findfont: Matching :family=DejaVu Sans Display:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans Display ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf') with score of 0.050000
+LINE 658 : 2020-01-29 18:47:28,063 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 1343: 2020-01-29 18:47:28,110 [DEBUG   ] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=bold:stretch=normal:size=24.0 to DejaVu Sans ('/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf') with score of 0.000000
+LINE 710 : 2020-01-29 18:47:28,112 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-01-29 18:47:28,113 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-01-29 18:47:28,138 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-01-29 18:47:28,138 [DEBUG   ] Writing TrueType font.
+LINE 658 : 2020-01-29 18:47:28,182 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-01-29 18:47:28,198 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-01-29 18:47:28,228 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-01-29 18:47:28,228 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-01-29 18:47:28,240 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-01-29 18:47:28,240 [DEBUG   ] Writing TrueType font.
+LINE 373 : 2020-01-29 18:47:28,254 [INFO    ] Done.
+
+LINE 208 : 2020-01-29 19:29:15,880 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-01-29 19:29:21,986 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-01-29 19:29:35,846 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:29:36,246 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 19:29:36,378 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 19:29:36,379 [DEBUG   ] Start Enrichr using library: GO_Molecular_Function_2018
+LINE 355 : 2020-01-29 19:29:36,379 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: GO_Molecular_Function_2018
+LINE 208 : 2020-01-29 19:29:36,380 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:29:38,365 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-01-29 19:29:39,369 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:29:40,076 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=25886524&filename=GO_Molecular_Function_2018.pathway_analysis.reports&backgroundType=GO_Molecular_Function_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-01-29 19:29:41,350 [INFO    ] Save file of enrichment results: Job Id:24f35ce4c0988d0abf8f8590d5cc5028
+LINE 658 : 2020-01-29 19:29:41,398 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-01-29 19:29:41,410 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-01-29 19:29:41,418 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-01-29 19:29:41,418 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-01-29 19:29:41,430 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-01-29 19:29:41,430 [DEBUG   ] Writing TrueType font.
+LINE 658 : 2020-01-29 19:29:41,458 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-01-29 19:29:41,470 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-01-29 19:29:41,477 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-01-29 19:29:41,477 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-01-29 19:29:41,489 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-01-29 19:29:41,489 [DEBUG   ] Writing TrueType font.
+LINE 373 : 2020-01-29 19:29:41,502 [INFO    ] Done.
+
+LINE 208 : 2020-01-29 19:31:22,038 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-01-29 19:31:23,335 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-01-29 19:31:29,808 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:31:30,092 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 19:31:30,221 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 19:31:30,222 [DEBUG   ] Start Enrichr using library: GO_Molecular_Function_2018
+LINE 355 : 2020-01-29 19:31:30,222 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: GO_Molecular_Function_2018
+LINE 208 : 2020-01-29 19:31:30,224 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:31:36,816 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-01-29 19:31:37,820 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:31:38,593 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=25886542&filename=GO_Molecular_Function_2018.pathway_analysis.reports&backgroundType=GO_Molecular_Function_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-01-29 19:31:39,861 [INFO    ] Save file of enrichment results: Job Id:73e645f6efb98d57a02f8467fdf81c79
+LINE 658 : 2020-01-29 19:31:39,922 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-01-29 19:31:39,932 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-01-29 19:31:39,946 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-01-29 19:31:39,946 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-01-29 19:31:39,958 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-01-29 19:31:39,958 [DEBUG   ] Writing TrueType font.
+LINE 658 : 2020-01-29 19:31:39,986 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-01-29 19:31:39,995 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-01-29 19:31:40,009 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-01-29 19:31:40,010 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-01-29 19:31:40,021 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-01-29 19:31:40,022 [DEBUG   ] Writing TrueType font.
+LINE 373 : 2020-01-29 19:31:40,035 [INFO    ] Done.
+
+LINE 208 : 2020-01-29 19:33:10,380 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-01-29 19:33:11,266 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-01-29 19:33:17,041 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:33:17,433 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 19:33:17,560 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 19:33:17,561 [DEBUG   ] Start Enrichr using library: GO_Molecular_Function_2018
+LINE 355 : 2020-01-29 19:33:17,561 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: GO_Molecular_Function_2018
+LINE 208 : 2020-01-29 19:33:17,563 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:33:22,270 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 400 975
+LINE 208 : 2020-01-29 19:33:39,117 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:33:39,406 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 19:33:39,536 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 19:33:39,537 [DEBUG   ] Start Enrichr using library: GO_Molecular_Function_2018
+LINE 355 : 2020-01-29 19:33:39,537 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: GO_Molecular_Function_2018
+LINE 208 : 2020-01-29 19:33:39,539 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 208 : 2020-01-29 19:34:02,803 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:34:03,089 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 19:34:03,219 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 19:34:03,220 [DEBUG   ] Start Enrichr using library: GWAS_Catalog_2019
+LINE 355 : 2020-01-29 19:34:03,220 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: GWAS_Catalog_2019
+LINE 208 : 2020-01-29 19:34:03,222 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:34:04,248 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-01-29 19:34:05,251 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:34:05,803 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=25886592&filename=GWAS_Catalog_2019.pathway_analysis.reports&backgroundType=GWAS_Catalog_2019 HTTP/1.1" 200 None
+LINE 363 : 2020-01-29 19:34:07,084 [INFO    ] Save file of enrichment results: Job Id:22321271c4c3b061c1055fb2b7084920
+LINE 372 : 2020-01-29 19:34:07,096 [WARNING ] Warning: No enrich terms using library GWAS_Catalog_2019 when cutoff = 0.05
+LINE 373 : 2020-01-29 19:34:07,098 [INFO    ] Done.
+
+LINE 208 : 2020-01-29 19:36:44,402 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:36:44,688 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 19:36:44,819 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 19:36:44,821 [DEBUG   ] Start Enrichr using library: Chromosome_Location
+LINE 355 : 2020-01-29 19:36:44,821 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: Chromosome_Location
+LINE 208 : 2020-01-29 19:36:44,825 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:37:09,402 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 400 978
+LINE 208 : 2020-01-29 19:37:38,664 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:37:38,943 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-01-29 19:37:39,070 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-01-29 19:37:39,070 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-01-29 19:37:39,070 [INFO    ] Analysis name: pathway_analysis, Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-01-29 19:37:39,072 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:37:39,797 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-01-29 19:37:40,801 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-01-29 19:37:41,300 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=25886662&filename=GO_Biological_Process_2018.pathway_analysis.reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-01-29 19:37:42,710 [INFO    ] Save file of enrichment results: Job Id:7694d0e54e766a7b50ff525e9b4485ba
+LINE 372 : 2020-01-29 19:37:42,734 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-01-29 19:37:42,736 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 17:59:25,382 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 17:59:26,717 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 17:59:30,477 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 17:59:31,192 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 17:59:35,196 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 17:59:35,597 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 17:59:35,731 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 17:59:35,731 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 17:59:35,731 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 17:59:35,817 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 17:59:36,798 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 17:59:37,899 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 17:59:38,484 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26257904&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 17:59:40,192 [INFO    ] Save file of enrichment results: Job Id:f3c78a3828d53411fc2c216cb98e9939
+LINE 372 : 2020-02-26 17:59:40,576 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 17:59:40,591 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:09:29,335 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:09:30,341 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:09:31,369 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:31,886 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:09:32,017 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:09:32,017 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:09:32,017 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:09:32,019 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:32,838 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:09:33,841 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:34,363 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258688&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:09:35,774 [INFO    ] Save file of enrichment results: Job Id:367569db74b9093267dec910cf4c8dc5
+LINE 372 : 2020-02-26 19:09:35,799 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:09:35,801 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:09:40,812 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:09:41,466 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:09:42,513 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:42,803 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:09:42,938 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:09:42,938 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:09:42,938 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:09:42,940 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:43,495 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:09:44,499 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:44,975 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258689&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:09:46,258 [INFO    ] Save file of enrichment results: Job Id:6b0a44a73e366f86eb595fa695c9b14d
+LINE 372 : 2020-02-26 19:09:46,267 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:09:46,269 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:09:51,280 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:09:52,039 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:09:53,060 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:53,348 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:09:53,481 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:09:53,481 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:09:53,481 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:09:53,483 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:53,930 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:09:54,934 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:09:55,400 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258693&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:09:56,916 [INFO    ] Save file of enrichment results: Job Id:949146bff5b87f36811cb927761d355a
+LINE 372 : 2020-02-26 19:09:56,930 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:09:56,931 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:10:01,942 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:10:02,638 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:10:03,657 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:03,946 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:10:04,078 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:10:04,078 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:10:04,079 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:10:04,080 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:04,477 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:10:05,481 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:05,796 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258701&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:10:07,286 [INFO    ] Save file of enrichment results: Job Id:bbcacdc2421fcede0c89adb9e52b75db
+LINE 372 : 2020-02-26 19:10:07,300 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:10:07,302 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:10:12,313 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:10:12,968 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:10:13,989 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:14,274 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:10:14,403 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:10:14,404 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:10:14,404 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:10:14,405 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:14,795 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:10:15,905 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:16,220 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258702&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:10:17,488 [INFO    ] Save file of enrichment results: Job Id:ec1c51fba64604a54456d2d82ff49c94
+LINE 372 : 2020-02-26 19:10:17,498 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:10:17,500 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:10:22,511 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:10:23,446 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:10:24,489 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:24,776 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:10:24,907 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:10:24,908 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:10:24,908 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:10:24,909 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:25,516 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:10:26,519 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:26,865 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258707&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:10:28,297 [INFO    ] Save file of enrichment results: Job Id:bc3c6346f1ce1313951883134130d3a8
+LINE 372 : 2020-02-26 19:10:28,321 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:10:28,323 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:10:33,350 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:10:33,984 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:10:35,005 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:35,296 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:10:35,430 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:10:35,431 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:10:35,431 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:10:35,432 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:35,812 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:10:36,815 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:37,243 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258708&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:10:38,508 [INFO    ] Save file of enrichment results: Job Id:47fffdeac682aa5bfd5353e4bf7b5696
+LINE 372 : 2020-02-26 19:10:38,517 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:10:38,519 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:10:43,530 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:10:44,129 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:10:45,149 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:45,434 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:10:45,565 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:10:45,565 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:10:45,565 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:10:45,567 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:45,958 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:10:46,961 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:47,276 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258709&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:10:48,750 [INFO    ] Save file of enrichment results: Job Id:04efd3dc85320e75fd29a6c793a9ead1
+LINE 372 : 2020-02-26 19:10:48,764 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:10:48,769 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:10:53,779 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:10:54,370 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:10:55,407 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:55,697 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:10:55,831 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:10:55,831 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:10:55,831 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:10:55,832 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:56,256 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:10:57,259 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:10:57,600 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258710&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:10:58,863 [INFO    ] Save file of enrichment results: Job Id:f353dc713fac66246b45dc28ffe7c2b5
+LINE 658 : 2020-02-26 19:11:01,121 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-02-26 19:11:01,569 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-02-26 19:11:01,651 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-02-26 19:11:01,651 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-02-26 19:11:01,796 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-02-26 19:11:01,796 [DEBUG   ] Writing TrueType font.
+LINE 658 : 2020-02-26 19:11:01,875 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-02-26 19:11:01,898 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-02-26 19:11:01,911 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-02-26 19:11:01,911 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-02-26 19:11:01,927 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-02-26 19:11:01,927 [DEBUG   ] Writing TrueType font.
+LINE 373 : 2020-02-26 19:11:01,939 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:11:06,955 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:11:07,644 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:11:08,682 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:08,977 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:11:09,112 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:11:09,113 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:11:09,113 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:11:09,114 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:09,514 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:11:10,517 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:10,834 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258711&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:11:12,234 [INFO    ] Save file of enrichment results: Job Id:7caeba53682ee8f75b727169c853d68c
+LINE 372 : 2020-02-26 19:11:12,248 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:11:12,250 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:11:17,260 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:11:17,915 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:11:18,935 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:19,470 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:11:19,602 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:11:19,603 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:11:19,603 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:11:19,604 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:20,013 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:11:21,016 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:21,333 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258712&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:11:22,733 [INFO    ] Save file of enrichment results: Job Id:771a85ba37df567a4cc652cc910dc057
+LINE 372 : 2020-02-26 19:11:22,747 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:11:22,749 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:11:27,760 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:11:28,714 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:11:29,768 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:30,059 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:11:30,194 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:11:30,195 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:11:30,195 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:11:30,197 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:30,780 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:11:31,783 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:32,111 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258714&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:11:33,546 [INFO    ] Save file of enrichment results: Job Id:d0d1cf1bbf861c6bc2b425d38f0362d2
+LINE 372 : 2020-02-26 19:11:33,570 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:11:33,573 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:11:38,614 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:11:39,243 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:11:40,263 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:40,562 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:11:40,701 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:11:40,701 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:11:40,701 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:11:40,703 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:41,099 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:11:42,102 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:42,422 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258715&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:11:43,695 [INFO    ] Save file of enrichment results: Job Id:6a4133b22aec286e68670a61690b3597
+LINE 372 : 2020-02-26 19:11:43,704 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:11:43,706 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:11:48,717 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:11:49,330 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:11:50,351 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:50,634 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:11:50,763 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:11:50,764 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:11:50,764 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:11:50,765 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:51,169 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:11:52,173 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:11:52,512 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258716&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:11:54,048 [INFO    ] Save file of enrichment results: Job Id:738645c028f53726a426a5e369f53f0f
+LINE 372 : 2020-02-26 19:11:54,062 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:11:54,064 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:11:59,075 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:11:59,999 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:12:01,026 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:01,318 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:12:01,453 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:12:01,454 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:12:01,454 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:12:01,455 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:02,061 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:12:03,064 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:03,573 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258717&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:12:05,004 [INFO    ] Save file of enrichment results: Job Id:6f19fe42202b9f21311478fe04d5e166
+LINE 372 : 2020-02-26 19:12:05,028 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:12:05,029 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:12:10,040 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:12:10,668 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:12:11,687 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:11,977 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:12:12,109 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:12:12,109 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:12:12,110 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:12:12,111 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:12,532 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:12:13,535 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:13,909 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258718&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:12:15,326 [INFO    ] Save file of enrichment results: Job Id:1e550c44710991e3f77f68783c8e4eb6
+LINE 372 : 2020-02-26 19:12:15,340 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:12:15,342 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:12:20,353 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:12:21,264 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:12:22,288 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:22,577 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:12:22,709 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:12:22,709 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:12:22,709 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:12:22,711 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:23,313 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:12:24,316 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:24,653 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258719&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:12:26,071 [INFO    ] Save file of enrichment results: Job Id:50a1cf043f57e17dcf8cdf7aaca76f62
+LINE 372 : 2020-02-26 19:12:26,095 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:12:26,096 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:12:31,108 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:12:31,732 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:12:32,752 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:33,035 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:12:33,163 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:12:33,164 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:12:33,164 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:12:33,165 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:33,566 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:12:34,569 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:34,888 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258720&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:12:36,292 [INFO    ] Save file of enrichment results: Job Id:06e3904034c5e9e061ed0b0795c974df
+LINE 372 : 2020-02-26 19:12:36,306 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:12:36,308 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:12:41,319 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:12:42,360 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:12:43,384 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:43,679 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:12:43,814 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:12:43,815 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:12:43,815 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:12:43,816 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:44,408 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:12:45,412 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:45,729 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258722&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:12:47,127 [INFO    ] Save file of enrichment results: Job Id:fa3b5f3989a4d694c3c51a85e797c410
+LINE 372 : 2020-02-26 19:12:47,150 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:12:47,152 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:12:52,163 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:12:52,776 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:12:53,796 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:54,083 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:12:54,214 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:12:54,215 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:12:54,215 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:12:54,216 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:54,605 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:12:55,608 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:12:55,922 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258724&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:12:57,319 [INFO    ] Save file of enrichment results: Job Id:7dcce899b074830a2d25b07381a2742a
+LINE 372 : 2020-02-26 19:12:57,334 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:12:57,335 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:13:02,347 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:13:03,314 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:13:04,339 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:04,633 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:13:04,766 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:13:04,766 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:13:04,766 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:13:04,768 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:05,359 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:13:06,362 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:06,691 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258725&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:13:08,101 [INFO    ] Save file of enrichment results: Job Id:8cabb138846ad7963c32a070d40ab50a
+LINE 372 : 2020-02-26 19:13:08,124 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:13:08,126 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:13:13,137 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:13:13,736 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:13:14,756 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:15,049 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:13:15,184 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:13:15,185 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:13:15,185 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:13:15,186 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:15,587 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:13:16,591 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:16,908 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258729&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:13:18,306 [INFO    ] Save file of enrichment results: Job Id:8028eb8379491d6d71d72854c13ff8f3
+LINE 372 : 2020-02-26 19:13:18,320 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:13:18,321 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:13:23,333 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:13:24,282 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:13:25,305 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:25,605 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:13:25,749 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:13:25,749 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:13:25,750 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:13:25,751 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:26,373 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:13:27,376 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:27,704 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258730&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:13:29,123 [INFO    ] Save file of enrichment results: Job Id:285b5090327f38e91b153732564543dd
+LINE 372 : 2020-02-26 19:13:29,146 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:13:29,148 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:13:34,159 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:13:34,783 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:13:35,804 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:36,088 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:13:36,217 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:13:36,218 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:13:36,218 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:13:36,220 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:36,634 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:13:37,637 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:38,025 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258731&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:13:39,306 [INFO    ] Save file of enrichment results: Job Id:fd23bc9d0ef3af6ae133f322133099e3
+LINE 372 : 2020-02-26 19:13:39,316 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:13:39,318 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:13:44,329 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:13:44,982 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:13:46,001 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:46,286 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:13:46,417 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:13:46,418 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:13:46,418 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:13:46,419 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:46,794 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:13:47,797 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:48,120 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258733&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:13:49,531 [INFO    ] Save file of enrichment results: Job Id:7944e30665293424d4679a58daae3446
+LINE 372 : 2020-02-26 19:13:49,546 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:13:49,547 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:13:54,558 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:13:55,551 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:13:56,579 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:56,868 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:13:57,002 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:13:57,003 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:13:57,003 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:13:57,004 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:57,595 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:13:58,599 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:13:58,961 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258736&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:14:00,649 [INFO    ] Save file of enrichment results: Job Id:4bf12e43839fca20fd12a3be0f76a32e
+LINE 372 : 2020-02-26 19:14:00,673 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:14:00,674 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:14:05,686 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:14:06,260 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:14:07,279 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:07,573 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:14:07,709 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:14:07,710 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:14:07,710 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:14:07,711 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:08,098 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:14:09,102 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:09,406 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258738&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:14:10,665 [INFO    ] Save file of enrichment results: Job Id:297777fcba1ad956d184523e0429e8cf
+LINE 372 : 2020-02-26 19:14:10,675 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:14:10,677 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:14:15,689 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:14:16,291 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:14:17,313 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:17,602 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:14:17,736 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:14:17,736 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:14:17,737 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:14:17,738 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:18,122 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:14:19,125 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:19,491 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258739&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:14:20,905 [INFO    ] Save file of enrichment results: Job Id:f0f33a6a185ca695270b7e2a82089ba8
+LINE 372 : 2020-02-26 19:14:20,919 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:14:20,921 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:14:25,931 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:14:26,534 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:14:27,555 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:27,849 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:14:27,984 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:14:27,984 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:14:27,984 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:14:27,986 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:28,360 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:14:29,363 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:29,679 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258741&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:14:30,952 [INFO    ] Save file of enrichment results: Job Id:0327fcb3635b6a91247982ec2028098a
+LINE 372 : 2020-02-26 19:14:30,961 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:14:30,963 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:14:35,974 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:14:36,602 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:14:37,622 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:37,906 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:14:38,036 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:14:38,037 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:14:38,037 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:14:38,038 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:38,440 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:14:39,443 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:39,747 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258742&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:14:41,156 [INFO    ] Save file of enrichment results: Job Id:c8ce0914c0d0564225a8a37cf6c19add
+LINE 372 : 2020-02-26 19:14:41,170 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:14:41,172 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:14:46,183 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:14:46,864 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:14:47,884 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:48,169 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:14:48,300 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:14:48,301 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:14:48,301 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:14:48,302 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:48,681 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:14:49,685 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:50,005 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258743&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:14:51,282 [INFO    ] Save file of enrichment results: Job Id:e349138c9fa9c5ea40e31044e44f6d6b
+LINE 372 : 2020-02-26 19:14:51,291 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:14:51,293 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:14:56,304 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:14:56,909 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:14:57,929 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:58,216 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:14:58,348 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:14:58,349 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:14:58,349 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:14:58,350 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:14:58,720 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:14:59,723 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:00,047 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258745&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:15:01,467 [INFO    ] Save file of enrichment results: Job Id:0bcf2c4266a0e7634f347ca5791ad366
+LINE 372 : 2020-02-26 19:15:01,517 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:15:01,519 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:15:06,530 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:15:07,101 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:15:08,121 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:08,414 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:15:08,547 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:15:08,548 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:15:08,548 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:15:08,549 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:08,925 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:15:09,928 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:10,273 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258746&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:15:11,546 [INFO    ] Save file of enrichment results: Job Id:634a45a5b60d1b47375c6e9f35e1308e
+LINE 658 : 2020-02-26 19:15:11,641 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-02-26 19:15:11,653 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-02-26 19:15:11,661 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-02-26 19:15:11,661 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-02-26 19:15:11,672 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-02-26 19:15:11,673 [DEBUG   ] Writing TrueType font.
+LINE 658 : 2020-02-26 19:15:11,695 [DEBUG   ] Assigning font /b'F1' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+LINE 658 : 2020-02-26 19:15:11,714 [DEBUG   ] Assigning font /b'F2' = '/home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf'
+LINE 710 : 2020-02-26 19:15:11,732 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf.
+LINE 717 : 2020-02-26 19:15:11,732 [DEBUG   ] Writing TrueType font.
+LINE 710 : 2020-02-26 19:15:11,744 [DEBUG   ] Embedding font /home/mazurovev/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+LINE 717 : 2020-02-26 19:15:11,744 [DEBUG   ] Writing TrueType font.
+LINE 373 : 2020-02-26 19:15:11,756 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:15:16,767 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:15:17,665 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:15:18,689 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:18,974 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:15:19,106 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:15:19,106 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:15:19,106 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:15:19,108 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:19,657 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:15:20,661 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:21,036 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258748&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:15:22,445 [INFO    ] Save file of enrichment results: Job Id:5ab3a5df33bbf26aa7393e44b93d5e6c
+LINE 372 : 2020-02-26 19:15:22,469 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:15:22,471 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:15:27,482 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:15:28,105 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:15:29,125 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:29,414 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:15:29,546 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:15:29,547 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:15:29,547 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:15:29,549 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:29,945 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:15:30,948 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:31,269 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258750&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:15:32,680 [INFO    ] Save file of enrichment results: Job Id:5be0e91122bc87bcbff8659808cbdc1e
+LINE 372 : 2020-02-26 19:15:32,695 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:15:32,697 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:15:37,708 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:15:38,378 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:15:39,397 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:39,688 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:15:39,821 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:15:39,821 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:15:39,821 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:15:39,823 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:40,232 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:15:41,235 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:41,546 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258751&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:15:42,939 [INFO    ] Save file of enrichment results: Job Id:a2d094ce8be4bc79078ed5419a2b4f4d
+LINE 372 : 2020-02-26 19:15:42,953 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:15:42,954 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:15:47,965 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:15:48,648 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:15:49,668 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:49,947 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:15:50,075 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:15:50,076 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:15:50,076 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:15:50,077 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:50,469 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:15:51,472 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:15:51,794 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258752&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:15:53,208 [INFO    ] Save file of enrichment results: Job Id:7800ed3df7872b7f6fbc79859244ad6d
+LINE 372 : 2020-02-26 19:15:53,222 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:15:53,224 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:15:58,236 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:15:59,139 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:16:00,164 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:00,459 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:16:00,594 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:16:00,595 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:16:00,595 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:16:00,596 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:01,135 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:16:02,138 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:02,890 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258753&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:16:04,308 [INFO    ] Save file of enrichment results: Job Id:f5c37eb3389d3153a53ebd6678955f3c
+LINE 372 : 2020-02-26 19:16:04,332 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:16:04,334 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:16:09,345 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:16:09,931 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:16:10,951 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:11,667 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:16:11,808 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:16:11,809 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:16:11,809 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:16:11,810 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:12,202 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:16:13,205 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:13,514 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258756&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:16:14,914 [INFO    ] Save file of enrichment results: Job Id:3725d79dfaf2c559f2ed55c58e994dba
+LINE 372 : 2020-02-26 19:16:14,928 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:16:14,929 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:16:19,942 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:16:20,857 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:16:21,881 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:22,172 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:16:22,303 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:16:22,304 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:16:22,304 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:16:22,305 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:26,028 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:16:27,031 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:27,355 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258757&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:16:28,757 [INFO    ] Save file of enrichment results: Job Id:015ef097c4da538a2d507511af73fc10
+LINE 372 : 2020-02-26 19:16:28,781 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:16:28,783 [INFO    ] Done.
+
+LINE 208 : 2020-02-26 19:16:33,794 [DEBUG   ] Starting new HTTP connection (1): mygene.info
+LINE 396 : 2020-02-26 19:16:34,399 [DEBUG   ] http://mygene.info:80 "POST /v3/query/ HTTP/1.1" 200 None
+LINE 208 : 2020-02-26 19:16:35,423 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:38,732 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/datasetStatistics HTTP/1.1" 200 None
+LINE 336 : 2020-02-26 19:16:38,864 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 354 : 2020-02-26 19:16:38,865 [DEBUG   ] Start Enrichr using library: GO_Biological_Process_2018
+LINE 355 : 2020-02-26 19:16:38,865 [INFO    ] Analysis name: , Enrichr Library: GO_Biological_Process_2018
+LINE 208 : 2020-02-26 19:16:38,866 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:39,253 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 74
+LINE 208 : 2020-02-26 19:16:40,256 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2020-02-26 19:16:40,616 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=26258760&filename=GO_Biological_Process_2018..reports&backgroundType=GO_Biological_Process_2018 HTTP/1.1" 200 None
+LINE 363 : 2020-02-26 19:16:42,021 [INFO    ] Save file of enrichment results: Job Id:dd0748d98726bc85c1afbce1d062f911
+LINE 372 : 2020-02-26 19:16:42,035 [WARNING ] Warning: No enrich terms using library GO_Biological_Process_2018 when cutoff = 0.05
+LINE 373 : 2020-02-26 19:16:42,037 [INFO    ] Done.
+
