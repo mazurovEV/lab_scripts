@@ -10,8 +10,6 @@ himorna_df <- read.delim(paste0(DATA_DIR, 'ENSG00000229852_H3K27ac.himorna_peaks
 #atac_df    <- read.delim(paste0(DATA_DIR, 'ENSG00000229852.atac_diff_peaks_anno.txt'), as.is=TRUE, header=TRUE)
 imargi_df <- read.delim(paste0(DATA_DIR, 'ENSG00000229852.imargi_peaks_anno.txt'), as.is=TRUE, header=TRUE)
 
-head(imargi_df)
-
 ###
 # Genes Venn
 
@@ -83,3 +81,14 @@ venn.diagram(
 
 # Common genes - ENSG00000113578 (FGF1)
 Reduce(intersect, list(himorna_v, aso_05_v, aso_03_v))
+
+
+###
+# get the log2FC
+
+head(fantom_df)
+
+# ASO_G0229852_03 -0.3826788
+fantom_df %>%
+  filter(geneSymbol == 'E2F7')
+
